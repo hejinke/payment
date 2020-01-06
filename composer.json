@@ -1,0 +1,25 @@
+{
+    "name": "hejinke/payment",
+    "description": "WeChatPay,AliPay",
+    "type" : "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jinke",
+            "email": "644257670@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+      "ext-json": "*",
+      "ext-libxml": "*",
+      "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hejinke\\payment\\" : "src/hejinke/payment"
+        }
+    }
+}
